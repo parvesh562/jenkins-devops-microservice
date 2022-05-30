@@ -20,19 +20,19 @@ pipeline {
 			 }
 		}
 	}	  	    
-}
 
-post {
-	always {
-		echo 'Iam awesome. Irun always'
-	}
-	success {
-		echo 'Irun when you are successful'
-	}
-	failure {
-		echo 'Irun when you fail'
-	}
-}
 
+    post {
+	    always {
+		    echo 'Im awesome. Irun always'
+	    }
+	    success {
+		    echo 'I run when you are successful'
+	    }
+	    failure {
+		    echo 'I run when you fail'
+	    }
+    }
+}
 
 
