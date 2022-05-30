@@ -16,7 +16,7 @@ pipeline {
 				echo "Test"			
 			 }
 		}
-		stage('Integration Test') {
+		stage ('Integration Test') {
             steps{
 				echo "Integration Test" 
 			 }
@@ -26,7 +26,7 @@ pipeline {
 
     post {
 	    always {
-		    echo 'Im awesome. Irun always'
+		    echo 'I m awesome. I run always'
 	    }
 	    success {
 		    echo 'I run when you are successful'
