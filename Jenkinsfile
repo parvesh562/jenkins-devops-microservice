@@ -20,7 +20,9 @@ pipeline {
 			 }
 		}
 	}	  	    
-}post {
+}
+
+post {
 	always {
 		echo 'Iam awesome. Irun always'
 	}
